@@ -1,0 +1,17 @@
+{
+  "name": "autochina-encyclopedia",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AutoChina Encyclopedia — энциклопедия и онлайн-диагностика китайских автомобилей (демо MVP, Автомастер 24)",
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "test": "node tools/validate-data.mjs && node --test tests/",
+    "serve": "npm run build && python3 -m http.server 8080 --directory dist",
+    "screenshots": "node tools/screenshots.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.48.0"
+  },
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,19 @@
+{
+  "_meta": { "schema": "hidden-feature v0", "note": "Шаблон. Реальные записи добавляются только после проверки или с пометкой community/unverified." },
+  "items": [
+    {
+      "id": "example-brand-model-feature",
+      "brand": "Chery",
+      "model": "<модель>",
+      "years": [2023, 2024],
+      "unit": "head-unit",
+      "software_version": "<версия ПО>",
+      "title": { "ru": "<название функции>", "en": "<feature name>" },
+      "how": ["<шаг 1>", "<шаг 2>"],
+      "risk": "medium",
+      "verification": "community",
+      "source": "<ссылка на источник>",
+      "updated": "2026-10-18"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "_meta": { "note": "Список марок для выбора на главной. WMI-ссылки — из data/vehicles/wmi.json. Модельный ряд — заполняется в следующих версиях." },
+  "items": [
+    { "id": "chery",   "name": "Chery",   "nameRu": "Чери",    "group": "Chery Automobile",   "color": "#c8102e" },
+    { "id": "geely",   "name": "Geely",   "nameRu": "Джили",   "group": "Geely Holding",      "color": "#1a4d8f" },
+    { "id": "haval",   "name": "Haval",   "nameRu": "Хавейл",  "group": "Great Wall Motor",   "color": "#9b1c31" },
+    { "id": "changan", "name": "Changan", "nameRu": "Чанган",  "group": "Changan Automobile", "color": "#0057b8" },
+    { "id": "byd",     "name": "BYD",     "nameRu": "БИД",     "group": "BYD Auto",           "color": "#d0021b" },
+    { "id": "zeekr",   "name": "Zeekr",   "nameRu": "Зикр",    "group": "Geely Holding",      "color": "#111111" },
+    { "id": "omoda",   "name": "Omoda",   "nameRu": "Омода",   "group": "Chery Automobile",   "color": "#5a5a5a" },
+    { "id": "exeed",   "name": "Exeed",   "nameRu": "Эксид",   "group": "Chery Automobile",   "color": "#2b2b6b" },
+    { "id": "tank",    "name": "Tank",    "nameRu": "Танк",    "group": "Great Wall Motor",   "color": "#4b5320" }
+  ]
+}
